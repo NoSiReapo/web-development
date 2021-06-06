@@ -1,0 +1,188 @@
+/* Globals */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.has-floating:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* Overall page */
+.page
+{
+    width: 1000px;
+    height: 1500px;
+    margin: 100px 460px 0;
+    padding: 0 20px 0;
+}
+
+
+/* Header */
+.page__head
+{
+    margin-bottom: 45px;
+}
+
+.head__photo
+{
+    float: left;
+    margin-right: 60px;
+}
+
+.quote
+{
+    vertical-align: top;
+    background-image: url('../images/quotes.png');
+    background-repeat: no-repeat;
+    background-position: 0 50px;
+}
+
+.head__photo,
+
+.head__quote
+{
+    display: inline-block;
+}
+
+.head__quote
+{
+    width: 590px;
+}
+
+.quote__text
+{
+    font: italic 28px/42px Georgia, serif;
+    color: #848484;
+    width: 500px;
+    margin: 119px 0 3px 60px;
+}
+
+.quote__caption
+{
+    font: 600 16px/42px 'Open Sans', sans-serif;
+    color: #333333;
+    width: 500px;
+    margin-left: 63px;
+}
+
+
+/* Content */
+.aside,
+.content__text
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Aside content */
+.aside
+{
+    float: left;
+}
+
+.content__aside
+{
+    width: 330px;
+    margin-right: 60px;
+}
+
+.aside__heading
+{
+    font: 600 24px/32px 'Open Sans', serif;
+    color: #15a98b;
+    margin-bottom: 12px;
+}
+
+.list
+{
+    font: 19px/36px Georgia, sans-serif;
+    color: #555555;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.aside__list
+{
+    margin-bottom: 41px;
+}
+
+.markered-list
+{
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+.markered-list__item
+{
+    background: url('../images/marker.png') 0 50% no-repeat;
+    margin-left: 4px;
+    padding-left: 17px;
+}
+
+
+/* Text content */
+.text
+{
+    width: 570px;
+}
+
+.content__text-heading
+{
+
+    color: #333333;
+}
+
+.content__text-heading_first
+{
+    font: bold 48px/42px 'Open Sans', serif;
+    margin-left: 4px;
+}
+
+.content__text-divider
+{
+    display: block;
+    width: 60px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: #45c3aa;
+    margin: 31px 0 44px 0;
+}
+
+.content__text-heading_second
+{
+    font: 36px/42px 'Open Sans', serif;
+    margin: 42px 0 15px -2px;
+}
+
+.content__text-paragraph
+{
+    font: 19px/32px Georgia, sans-serif;
+    color: #555555;
+}
+
+.text__link
+{
+    display: inline-block;
+    margin-top: 41px;
+    font: 19px/32px Georgia, serif;
+    color: #15a98b;
+}
+
+.link
+{
+    text-decoration: none;
+    border-bottom: 1px solid #15a98b;
+    border-radius: 2px;
+}
+
+.link:hover
+{
+    color: #098d72;
+}
